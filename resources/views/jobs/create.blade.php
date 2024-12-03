@@ -1,12 +1,5 @@
-@extends('layout')
-
-@section('title')
-Create job
-@endsection
-
-
-@section('content')
-
+<x-layout>
+    <x-slot name="title">Create Job</x-slot>
     <h1>
         Create new job
     </h1>
@@ -16,4 +9,4 @@ Create job
         <input type="text" name="description" placeholder="description"/>
         <button type="submit">Submit</button>
     </form>
-@endsection
+</x-layout>
